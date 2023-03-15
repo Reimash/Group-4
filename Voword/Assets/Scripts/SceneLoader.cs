@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+
     public void LoadLevelOneScene()
     {
         SceneManager.LoadScene(1);
@@ -14,7 +15,7 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadMainMenuScene()
     {
-            SceneManager.LoadScene(0);
+        SceneManager.LoadScene(0);
     }
 
 }
