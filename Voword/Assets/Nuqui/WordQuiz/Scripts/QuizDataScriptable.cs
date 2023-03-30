@@ -6,4 +6,5 @@ using UnityEngine;
 public class QuizDataScriptable : ScriptableObject
 {
     public List<QuestionData> questions;
+    
 }

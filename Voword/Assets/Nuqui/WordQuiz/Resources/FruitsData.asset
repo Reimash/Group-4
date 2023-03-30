@@ -13,15 +13,48 @@ MonoBehaviour:
   m_Name: FruitsData
   m_EditorClassIdentifier: 
   questions:
-  - questionImage: {fileID: 21300000, guid: 551b975051dfa1a4bb91b7b378ce38c0, type: 3}
+  - questionImage: {fileID: 21300000, guid: 9f8b47e08b44f7143adac8ee520519f9, type: 3}
     answer: boy
+    clip: {fileID: 8300000, guid: 68aee8bd742c3af4f954b8fd667a938e, type: 3}
   - questionImage: {fileID: 21300000, guid: 05d92ae6f26987a4d85aab3fd6769018, type: 3}
     answer: banana
+    clip: {fileID: 0}
   - questionImage: {fileID: 21300000, guid: 0a2ba8a751ba83b4184817d8eb86f49a, type: 3}
     answer: cherry
+    clip: {fileID: 8300000, guid: 8254336a68780f749a959d1a67b549c1, type: 3}
   - questionImage: {fileID: 21300000, guid: 536a291cc7642c947b0000bff64fe171, type: 3}
     answer: lemon
+    clip: {fileID: 0}
   - questionImage: {fileID: 21300000, guid: eca7ec70538786f4a986ab025685c249, type: 3}
     answer: pear
+    clip: {fileID: 0}
   - questionImage: {fileID: 21300000, guid: 9c5f8bae1f5312d409b6319021a5d02b, type: 3}
     answer: orange
+    clip: {fileID: 0}
+  - questionImage: {fileID: 21300000, guid: 9c5f8bae1f5312d409b6319021a5d02b, type: 3}
+    answer: orange
+    clip: {fileID: 0}
+  - questionImage: {fileID: 21300000, guid: 9c5f8bae1f5312d409b6319021a5d02b, type: 3}
+    answer: orange
+    clip: {fileID: 0}
+  - questionImage: {fileID: 21300000, guid: 9c5f8bae1f5312d409b6319021a5d02b, type: 3}
+    answer: orange
+    clip: {fileID: 0}
+  - questionImage: {fileID: 21300000, guid: 9c5f8bae1f5312d409b6319021a5d02b, type: 3}
+    answer: orange
+    clip: {fileID: 0}
+  - questionImage: {fileID: 21300000, guid: 9c5f8bae1f5312d409b6319021a5d02b, type: 3}
+    answer: orange
+    clip: {fileID: 0}
+  - questionImage: {fileID: 21300000, guid: 9c5f8bae1f5312d409b6319021a5d02b, type: 3}
+    answer: orange
+    clip: {fileID: 0}
+  - questionImage: {fileID: 21300000, guid: 9c5f8bae1f5312d409b6319021a5d02b, type: 3}
+    answer: orange
+    clip: {fileID: 0}
+  - questionImage: {fileID: 21300000, guid: 9c5f8bae1f5312d409b6319021a5d02b, type: 3}
+    answer: orange
+    clip: {fileID: 0}
+  - questionImage: {fileID: 21300000, guid: 9c5f8bae1f5312d409b6319021a5d02b, type: 3}
+    answer: orange
+    clip: {fileID: 0}

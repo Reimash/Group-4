@@ -13,7 +13,9 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private QuizDataScriptable questionDataScriptable;
     [SerializeField] private Image questionImage;           
     [SerializeField] private WordData[] answerWordList;     
-    [SerializeField] private WordData[] optionsWordList;    
+    [SerializeField] private WordData[] optionsWordList;
+    [SerializeField] private AudioClip clip;
+    
 
 
     private GameStatus gameStatus = GameStatus.Playing;     
@@ -22,9 +24,11 @@ public class QuizManager : MonoBehaviour
     private List<int> selectedWordsIndex;                   
     private int currentAnswerIndex = 0, currentQuestionIndex = 0;   
     private bool correctAnswer = true;                      
-    private string answerWord;                              
-
+    private string answerWord;
+    //private AudioClip clip;
+  
     private void Awake()
+       
     {
         if (instance == null)
             instance = this;
@@ -46,7 +50,8 @@ public class QuizManager : MonoBehaviour
 
         answerWord = questionDataScriptable.questions[currentQuestionIndex].answer;
         questionImage.sprite = questionDataScriptable.questions[currentQuestionIndex].questionImage;
-            
+        clip = questionDataScriptable.questions[currentQuestionIndex].clip ;
+
         ResetQuestion();                                   
 
         selectedWordsIndex.Clear();                    
@@ -80,6 +85,7 @@ public class QuizManager : MonoBehaviour
         {
             answerWordList[i].gameObject.SetActive(true);
             answerWordList[i].SetWord('_');
+
         }
 
         for (int i = answerWord.Length; i < answerWordList.Length; i++)
@@ -107,14 +113,14 @@ public class QuizManager : MonoBehaviour
         selectedWordsIndex.Add(value.transform.GetSiblingIndex()); 
         value.gameObject.SetActive(false); 
         answerWordList[currentAnswerIndex].SetWord(value.wordValue); 
-
         currentAnswerIndex++;   
 
         
         if (currentAnswerIndex == answerWord.Length)
         {
-            correctAnswer = true; 
+            correctAnswer = true;
             for (int i = 0; i < answerWord.Length; i++)
+                
             {
                 
                 if (char.ToUpper(answerWord[i]) != char.ToUpper(answerWordList[i].wordValue))
@@ -129,12 +135,17 @@ public class QuizManager : MonoBehaviour
             {
                 Debug.Log("Correct Answer");
                 gameStatus = GameStatus.Next;
-                currentQuestionIndex++; 
+                currentQuestionIndex++;
+                if (clip != null)
+                {
+                    AudioSource.PlayClipAtPoint(clip, Camera.main.transform.position);
+                }
 
-               
+
+
                 if (currentQuestionIndex < questionDataScriptable.questions.Count)
                 {
-                    Invoke("SetQuestion", 0.5f); 
+                    Invoke("SetQuestion", 3f); 
                 }
                 else
                 {
@@ -165,6 +176,8 @@ public class QuestionData
 {
     public Sprite questionImage;
     public string answer;
+    public AudioClip clip;
+    
 }
 
 public enum GameStatus
