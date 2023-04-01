@@ -15,19 +15,19 @@ MonoBehaviour:
   questions:
   - questionImage: {fileID: 21300000, guid: 7cea79f483d1f094f97cea531381d451, type: 3}
     answer: Ice
-    clip: {fileID: 8300000, guid: 68aee8bd742c3af4f954b8fd667a938e, type: 3}
+    clip: {fileID: 8300000, guid: c4c4314285925634b896f1eff6acd39a, type: 3}
   - questionImage: {fileID: 21300000, guid: 6883be33e130fa84998b594c9d6b84f3, type: 3}
     answer: Penguin
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 9b9ddeb4e710a404e89d339e20a98745, type: 3}
   - questionImage: {fileID: 21300000, guid: 8320e660118c3074d9fe57a70dc8797b, type: 3}
     answer: BEAR
-    clip: {fileID: 8300000, guid: 8254336a68780f749a959d1a67b549c1, type: 3}
+    clip: {fileID: 8300000, guid: 34a988b1952c62b45b40fb89d3791094, type: 3}
   - questionImage: {fileID: 21300000, guid: ee1dcc05ae5c2474c95c2e5ef1c34b32, type: 3}
     answer: SNOW
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: edfedd1c9c4c8cb419ee07ccb97ba9df, type: 3}
   - questionImage: {fileID: 21300000, guid: 02b05c2043c233d4cbabe0391b86b150, type: 3}
     answer: IGLOO
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: eac90bfb2fe824842a24f24eca46fe2e, type: 3}
   - questionImage: {fileID: 21300000, guid: 189196bd0e1ee3f4d8c817d0a7b6b714, type: 3}
     answer: SEALS
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: cc3f0e3f0cb2065459a526e2d920d795, type: 3}

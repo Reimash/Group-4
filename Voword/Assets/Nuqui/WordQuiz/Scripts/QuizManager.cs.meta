@@ -3,7 +3,11 @@ guid: a4e1f31ac55237d4c8842cde14ded483
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - gameComplete: {instanceID: 0}
+  - questionDataScriptable: {instanceID: 0}
+  - questionImage: {instanceID: 0}
+  - clip: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
