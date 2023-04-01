@@ -14,7 +14,7 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private Image questionImage;           
     [SerializeField] private WordData[] answerWordList;     
     [SerializeField] private WordData[] optionsWordList;
-    [SerializeField] private AudioClip clip;
+    [SerializeField] private AudioClip SoundClip;
     
 
 
@@ -50,7 +50,7 @@ public class QuizManager : MonoBehaviour
 
         answerWord = questionDataScriptable.questions[currentQuestionIndex].answer;
         questionImage.sprite = questionDataScriptable.questions[currentQuestionIndex].questionImage;
-        clip = questionDataScriptable.questions[currentQuestionIndex].clip ;
+        SoundClip = questionDataScriptable.questions[currentQuestionIndex].SoundClip;
 
         ResetQuestion();                                   
 
@@ -136,9 +136,9 @@ public class QuizManager : MonoBehaviour
                 Debug.Log("Correct Answer");
                 gameStatus = GameStatus.Next;
                 currentQuestionIndex++;
-                if (clip != null)
+                if (SoundClip != null)
                 {
-                    AudioSource.PlayClipAtPoint(clip, Camera.main.transform.position);
+                    AudioSource.PlayClipAtPoint(SoundClip, Camera.main.transform.position);
                 }
 
 
@@ -176,7 +176,7 @@ public class QuestionData
 {
     public Sprite questionImage;
     public string answer;
-    public AudioClip clip;
+    public AudioClip SoundClip;
     
 }
 
