@@ -15,7 +15,6 @@ public class QuizManager : MonoBehaviour
     [SerializeField] private WordData[] answerWordList;     
     [SerializeField] private WordData[] optionsWordList;
     [SerializeField] private AudioClip SoundClip;
-    
 
 
     private GameStatus gameStatus = GameStatus.Playing;     
@@ -45,31 +44,31 @@ public class QuizManager : MonoBehaviour
 
     void SetQuestion()
     {
-        gameStatus = GameStatus.Playing;                
+        gameStatus = GameStatus.Playing;
 
 
         answerWord = questionDataScriptable.questions[currentQuestionIndex].answer;
         questionImage.sprite = questionDataScriptable.questions[currentQuestionIndex].questionImage;
         SoundClip = questionDataScriptable.questions[currentQuestionIndex].SoundClip;
 
-        ResetQuestion();                                   
+        ResetQuestion();
 
-        selectedWordsIndex.Clear();                    
-        Array.Clear(wordsArray, 0, wordsArray.Length); 
+        selectedWordsIndex.Clear();
+        Array.Clear(wordsArray, 0, wordsArray.Length);
 
-        
+
         for (int i = 0; i < answerWord.Length; i++)
         {
             wordsArray[i] = char.ToUpper(answerWord[i]);
         }
 
-        
+
         for (int j = answerWord.Length; j < wordsArray.Length; j++)
         {
             wordsArray[j] = (char)UnityEngine.Random.Range(65, 90);
         }
 
-        wordsArray = ShuffleList.ShuffleListItems<char>(wordsArray.ToList()).ToArray(); 
+        wordsArray = ShuffleList.ShuffleListItems<char>(wordsArray.ToList()).ToArray();
 
         for (int k = 0; k < optionsWordList.Length; k++)
         {
@@ -145,15 +144,19 @@ public class QuizManager : MonoBehaviour
 
                 if (currentQuestionIndex < questionDataScriptable.questions.Count)
                 {
-                    Invoke("SetQuestion", 3f); 
+                    Invoke("SetQuestion", 1.5f);
                 }
                 else
                 {
                     Debug.Log("Game Complete");
-                    gameComplete.SetActive(true);
+                    Invoke("ShowGameComplete", 3f);
                 }
             }
         }
+    }
+    private void ShowGameComplete()
+    {
+        gameComplete.SetActive(true);
     }
 
     public void ResetLastWord()

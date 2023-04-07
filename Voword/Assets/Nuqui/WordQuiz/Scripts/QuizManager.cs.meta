@@ -7,7 +7,8 @@ MonoImporter:
   - gameComplete: {instanceID: 0}
   - questionDataScriptable: {instanceID: 0}
   - questionImage: {instanceID: 0}
-  - clip: {instanceID: 0}
+  - SoundClip: {instanceID: 0}
+  - gameCompleteClip: {fileID: 8300000, guid: 263ae6d4e3be4b440bc2ee402fd61127, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
