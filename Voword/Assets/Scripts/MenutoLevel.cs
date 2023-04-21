@@ -10,18 +10,18 @@ public class MenutoLevel : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void LoadLevelOne()
+    public void LoadLevelOneFreeRoam()
     {
         SceneManager.LoadScene(1);
     }
 
     public void LoadLevelTwo()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 
     public void LoadLevelThree()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
 }
