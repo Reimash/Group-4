@@ -11,23 +11,23 @@ public class QuizManager : MonoBehaviour
 
     [SerializeField] private GameObject gameComplete;
     [SerializeField] private QuizDataScriptable questionDataScriptable;
-    [SerializeField] private Image questionImage;           
-    [SerializeField] private WordData[] answerWordList;     
+    [SerializeField] private Image questionImage;
+    [SerializeField] private WordData[] answerWordList;
     [SerializeField] private WordData[] optionsWordList;
     [SerializeField] private AudioClip SoundClip;
 
 
-    private GameStatus gameStatus = GameStatus.Playing;     
-    private char[] wordsArray = new char[12];               
+    private GameStatus gameStatus = GameStatus.Playing;
+    private char[] wordsArray = new char[12];
 
-    private List<int> selectedWordsIndex;                   
-    private int currentAnswerIndex = 0, currentQuestionIndex = 0;   
-    private bool correctAnswer = true;                      
+    private List<int> selectedWordsIndex;
+    private int currentAnswerIndex = 0, currentQuestionIndex = 0;
+    private bool correctAnswer = true;
     private string answerWord;
     //private AudioClip clip;
-  
+
     private void Awake()
-       
+
     {
         if (instance == null)
             instance = this;
@@ -35,11 +35,11 @@ public class QuizManager : MonoBehaviour
             Destroy(this.gameObject);
     }
 
-    
+
     void Start()
     {
-        selectedWordsIndex = new List<int>();           
-        SetQuestion();                                  
+        selectedWordsIndex = new List<int>();
+        SetQuestion();
     }
 
     void SetQuestion()
@@ -79,7 +79,7 @@ public class QuizManager : MonoBehaviour
 
     public void ResetQuestion()
     {
-     
+
         for (int i = 0; i < answerWordList.Length; i++)
         {
             answerWordList[i].gameObject.SetActive(true);
@@ -100,36 +100,36 @@ public class QuizManager : MonoBehaviour
         currentAnswerIndex = 0;
     }
 
-    
-    
-    
+
+
+
     /// <param name="value"></param>
     public void SelectedOption(WordData value)
     {
-        
+
         if (gameStatus == GameStatus.Next || currentAnswerIndex >= answerWord.Length) return;
 
-        selectedWordsIndex.Add(value.transform.GetSiblingIndex()); 
-        value.gameObject.SetActive(false); 
-        answerWordList[currentAnswerIndex].SetWord(value.wordValue); 
-        currentAnswerIndex++;   
+        selectedWordsIndex.Add(value.transform.GetSiblingIndex());
+        value.gameObject.SetActive(false);
+        answerWordList[currentAnswerIndex].SetWord(value.wordValue);
+        currentAnswerIndex++;
 
-        
+
         if (currentAnswerIndex == answerWord.Length)
         {
             correctAnswer = true;
             for (int i = 0; i < answerWord.Length; i++)
-                
+
             {
-                
+
                 if (char.ToUpper(answerWord[i]) != char.ToUpper(answerWordList[i].wordValue))
                 {
-                    correctAnswer = false; 
-                    break; 
+                    correctAnswer = false;
+                    break;
                 }
             }
 
-           
+
             if (correctAnswer)
             {
                 Debug.Log("Correct Answer");
@@ -180,11 +180,11 @@ public class QuestionData
     public Sprite questionImage;
     public string answer;
     public AudioClip SoundClip;
-    
+
 }
 
 public enum GameStatus
 {
-   Next,
-   Playing
+    Next,
+    Playing
 }

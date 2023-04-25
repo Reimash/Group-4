@@ -19,7 +19,8 @@ public class NewBehaviourScript : MonoBehaviour
     }
     public void Home(int sceneID)
     {
+        pausemenu.SetActive(false);
         Time.timeScale = 1f;
-        SceneManager.LoadScene(sceneID);
+        SceneManager.LoadScene(0);
     }
 }
