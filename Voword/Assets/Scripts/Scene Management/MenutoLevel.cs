@@ -14,14 +14,4 @@ public class MenutoLevel : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-
-    public void LoadLevelTwo()
-    {
-        SceneManager.LoadScene(3);
-    }
-
-    public void LoadLevelThree()
-    {
-        SceneManager.LoadScene(4);
-    }
 }

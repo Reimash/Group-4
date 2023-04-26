@@ -6221,9 +6221,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2139198178}
-        m_TargetAssemblyTypeName: MenutoLevel, Assembly-CSharp
-        m_MethodName: LoadLevelTwo
+      - m_Target: {fileID: 11500000, guid: 47372c0ecafd70d4db93c580e0bb6537, type: 3}
+        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
