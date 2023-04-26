@@ -329,6 +329,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125427128}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 --- !u!1 &171901001
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,6 +540,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> d4fd4dff2d9f6dfb004cb665418304a1e437b79c
 --- !u!1 &236563047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,7 +1029,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &497619034
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1553,7 +1556,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &762471298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1888,7 +1891,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &914036769
 Transform:
   m_ObjectHideFlags: 0
@@ -2643,7 +2646,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1216451053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3737,6 +3740,7 @@ RectTransform:
   m_AnchoredPosition: {x: -5.0000305, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 --- !u!1 &1688383885
 GameObject:
   m_ObjectHideFlags: 0
@@ -3842,6 +3846,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> d4fd4dff2d9f6dfb004cb665418304a1e437b79c
 --- !u!1 &1707641701
 GameObject:
   m_ObjectHideFlags: 0
@@ -3857,7 +3863,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1707641702
 Transform:
   m_ObjectHideFlags: 0
@@ -4909,6 +4915,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1858749039}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 --- !u!1 &1862802229
 GameObject:
   m_ObjectHideFlags: 0
@@ -5119,6 +5126,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> d4fd4dff2d9f6dfb004cb665418304a1e437b79c
 --- !u!1 &1946775513
 GameObject:
   m_ObjectHideFlags: 0
@@ -5488,7 +5497,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2072989595
 MonoBehaviour:
   m_ObjectHideFlags: 0
