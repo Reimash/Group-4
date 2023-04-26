@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Voword/Assets/Snake death.controller.meta
 guid: aae987042096e2540ba0e85655190bd0
+========
+guid: ac31275249da53742bfca497f87ab4e2
+>>>>>>>> parent of da12baa (LEVEL 1 COMPLETE):Voword/Assets/characters/slime/slime attack.controller.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000

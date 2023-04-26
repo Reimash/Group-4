@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Voword/Assets/Snake_attack1.png.meta
 guid: 21bdd7aa16853964c81c578199a8458a
+========
+guid: 2d0e28ad541dfdf4f8ae3c58ce4db6ba
+>>>>>>>> parent of da12baa (LEVEL 1 COMPLETE):Voword/Assets/characters/slime/slime idle 2.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

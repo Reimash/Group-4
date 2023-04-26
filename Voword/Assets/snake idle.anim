@@ -6,7 +6,11 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<<< HEAD:Voword/Assets/snake idle.anim
   m_Name: snake idle
+========
+  m_Name: slime walk
+>>>>>>>> parent of da12baa (LEVEL 1 COMPLETE):Voword/Assets/characters/slime/slime walk.anim
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,6 +25,7 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
+<<<<<<<< HEAD:Voword/Assets/snake idle.anim
       value: {fileID: 21300000, guid: 60143e45b5118f04f8911304d2b2c461, type: 3}
     - time: 0.083333336
       value: {fileID: 21300000, guid: 7f915c0d989f21a41a1a54db73832e13, type: 3}
@@ -28,6 +33,17 @@ AnimationClip:
       value: {fileID: 21300000, guid: e3cb0384a2e2e3744bb595143c06fd73, type: 3}
     - time: 0.4
       value: {fileID: 21300000, guid: 5a1059dbe7e5afe4c8a5e0bbdf829231, type: 3}
+========
+      value: {fileID: 21300000, guid: 0a8dfc9a5caf7394497fd5fbf8e4fc1b, type: 3}
+    - time: 0.13333334
+      value: {fileID: 21300000, guid: ec4302f30e69d794ab1759b180405af1, type: 3}
+    - time: 0.18333334
+      value: {fileID: 21300000, guid: 4a8dd633390fa0f46ac18e1275b1550a, type: 3}
+    - time: 0.26666668
+      value: {fileID: 21300000, guid: 945983a645332684daa440da2127c531, type: 3}
+    - time: 0.4
+      value: {fileID: 21300000, guid: d0377081ee8537a42bbfcd8c6db841ce, type: 3}
+>>>>>>>> parent of da12baa (LEVEL 1 COMPLETE):Voword/Assets/characters/slime/slime walk.anim
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,10 +66,18 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
+<<<<<<<< HEAD:Voword/Assets/snake idle.anim
     - {fileID: 21300000, guid: 60143e45b5118f04f8911304d2b2c461, type: 3}
     - {fileID: 21300000, guid: 7f915c0d989f21a41a1a54db73832e13, type: 3}
     - {fileID: 21300000, guid: e3cb0384a2e2e3744bb595143c06fd73, type: 3}
     - {fileID: 21300000, guid: 5a1059dbe7e5afe4c8a5e0bbdf829231, type: 3}
+========
+    - {fileID: 21300000, guid: 0a8dfc9a5caf7394497fd5fbf8e4fc1b, type: 3}
+    - {fileID: 21300000, guid: ec4302f30e69d794ab1759b180405af1, type: 3}
+    - {fileID: 21300000, guid: 4a8dd633390fa0f46ac18e1275b1550a, type: 3}
+    - {fileID: 21300000, guid: 945983a645332684daa440da2127c531, type: 3}
+    - {fileID: 21300000, guid: d0377081ee8537a42bbfcd8c6db841ce, type: 3}
+>>>>>>>> parent of da12baa (LEVEL 1 COMPLETE):Voword/Assets/characters/slime/slime walk.anim
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

@@ -1,6 +1,10 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<<< HEAD:Voword/Assets/Snake death.controller
 --- !u!1107 &-3909248988974675267
+========
+--- !u!1107 &-1328050434100776604
+>>>>>>>> parent of da12baa (LEVEL 1 COMPLETE):Voword/Assets/characters/slime/slime attack.controller
 AnimatorStateMachine:
   serializedVersion: 6
   m_ObjectHideFlags: 1
@@ -10,7 +14,11 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
+<<<<<<<< HEAD:Voword/Assets/Snake death.controller
     m_State: {fileID: 4158372634884396556}
+========
+    m_State: {fileID: 2445168592425359318}
+>>>>>>>> parent of da12baa (LEVEL 1 COMPLETE):Voword/Assets/characters/slime/slime attack.controller
     m_Position: {x: 200, y: 0, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
@@ -21,20 +29,32 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+<<<<<<<< HEAD:Voword/Assets/Snake death.controller
   m_DefaultState: {fileID: 4158372634884396556}
+========
+  m_DefaultState: {fileID: 2445168592425359318}
+>>>>>>>> parent of da12baa (LEVEL 1 COMPLETE):Voword/Assets/characters/slime/slime attack.controller
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<<< HEAD:Voword/Assets/Snake death.controller
   m_Name: Snake death
+========
+  m_Name: slime attack
+>>>>>>>> parent of da12baa (LEVEL 1 COMPLETE):Voword/Assets/characters/slime/slime attack.controller
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
+<<<<<<<< HEAD:Voword/Assets/Snake death.controller
     m_StateMachine: {fileID: -3909248988974675267}
+========
+    m_StateMachine: {fileID: -1328050434100776604}
+>>>>>>>> parent of da12baa (LEVEL 1 COMPLETE):Voword/Assets/characters/slime/slime attack.controller
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -44,14 +64,22 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+<<<<<<<< HEAD:Voword/Assets/Snake death.controller
 --- !u!1102 &4158372634884396556
+========
+--- !u!1102 &2445168592425359318
+>>>>>>>> parent of da12baa (LEVEL 1 COMPLETE):Voword/Assets/characters/slime/slime attack.controller
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<<< HEAD:Voword/Assets/Snake death.controller
   m_Name: snake death
+========
+  m_Name: slime attack
+>>>>>>>> parent of da12baa (LEVEL 1 COMPLETE):Voword/Assets/characters/slime/slime attack.controller
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -64,7 +92,11 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<<< HEAD:Voword/Assets/Snake death.controller
   m_Motion: {fileID: 7400000, guid: aba8ca5573137b44db565bf037c340aa, type: 2}
+========
+  m_Motion: {fileID: 7400000, guid: 488bfd666caa93e4da5885596fd5bd07, type: 2}
+>>>>>>>> parent of da12baa (LEVEL 1 COMPLETE):Voword/Assets/characters/slime/slime attack.controller
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
