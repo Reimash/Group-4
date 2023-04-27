@@ -59,4 +59,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level 3/Level3.unity
     guid: 4adb93d324775f8439fdbbd4181424b4
+  - enabled: 1
+    path: Assets/Scenes/Levels/Tutorial/Tutorial FreeRoam.unity
+    guid: 68e32e66c36a50b429dbec5bd9bf4a94
+  - enabled: 1
+    path: Assets/Scenes/Levels/Tutorial/tutorial stage.unity
+    guid: 3185f72b2c92ea248bba38193fcaf0dc
+  - enabled: 1
+    path: Assets/Scenes/Levels/Tutorial/Stage 1 Kill.unity
+    guid: 4bde7b2a7cef0e14394835c0fc9631b7
   m_configObjects: {}

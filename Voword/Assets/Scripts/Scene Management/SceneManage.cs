@@ -29,4 +29,9 @@ public class SceneManage : MonoBehaviour
     {
         SceneManager.LoadScene(15);
     }
+
+    public void Loadtutorialkill()
+    {
+        SceneManager.LoadScene(20);
+    }
 }

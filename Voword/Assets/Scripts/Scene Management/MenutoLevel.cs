@@ -14,4 +14,9 @@ public class MenutoLevel : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void LoadTutorialIsland()
+    {
+        SceneManager.LoadScene(18);
+    }
 }
