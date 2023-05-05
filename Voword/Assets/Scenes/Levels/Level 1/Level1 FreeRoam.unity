@@ -5583,7 +5583,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0faee67e6be5a40459ac0ecba93e7c7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream:Voword/Assets/Scenes/Levels/Level 1/Level1 FreeRoam.unity
   sceneBuildIndex: 2
+=======
+  sceneBuildIndex: 17
+--- !u!1 &2043996651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2043996652}
+  m_Layer: 0
+  m_Name: instructions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2043996652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043996651}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.9952965, y: -1.9613512, z: -0.03314507}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1138530716}
+  - {fileID: 1156908329}
+  - {fileID: 934613417}
+  - {fileID: 1662354453}
+  - {fileID: 1407816534}
+  - {fileID: 1282424107}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes:Voword/Assets/Scenes/Levels/Tutorial/Tutorial FreeRoam.unity
 --- !u!1 &2061278173
 GameObject:
   m_ObjectHideFlags: 0

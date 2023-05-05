@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: FruitsData
   m_EditorClassIdentifier: 
   questions:
+<<<<<<< Updated upstream:Voword/Assets/Nuqui/WordQuiz/Resources/FruitsData.asset
   - questionImage: {fileID: 21300000, guid: 7cea79f483d1f094f97cea531381d451, type: 3}
     answer: Ice
     SoundClip: {fileID: 8300000, guid: c4c4314285925634b896f1eff6acd39a, type: 3}
+=======
+  - questionImage: {fileID: 21300000, guid: 8320e660118c3074d9fe57a70dc8797b, type: 3}
+    answer: BEAR
+    SoundClip: {fileID: 8300000, guid: 34a988b1952c62b45b40fb89d3791094, type: 3}
+>>>>>>> Stashed changes:Voword/Assets/Nuqui/WordQuiz/Resources/Level 1/Level 1 Stage 3.asset
