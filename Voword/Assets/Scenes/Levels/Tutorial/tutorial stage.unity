@@ -474,7 +474,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'PESS TO REMOVE
+  m_text: 'PRESS TO REMOVE
 
     ALL LETTERS THAT ARE SELECTED'
   m_isRightToLeft: 0
@@ -5860,7 +5860,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'PESS TO REMOVE
+  m_text: 'PRESS TO REMOVE
 
     THE RECENTLY SELECTED
 
