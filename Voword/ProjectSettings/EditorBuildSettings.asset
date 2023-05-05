@@ -54,12 +54,6 @@ EditorBuildSettings:
     path: Assets/Scenes/CutScenes/Level 1/Stage 5/Stage 5 Kill.unity
     guid: bf1a13bb044abea43abfc5eaf8be9308
   - enabled: 1
-    path: Assets/Scenes/Levels/Level 2/Level2.unity
-    guid: 7cca638edf7ac434a85db79ab5bf5edd
-  - enabled: 1
-    path: Assets/Scenes/Levels/Level 3/Level3.unity
-    guid: 4adb93d324775f8439fdbbd4181424b4
-  - enabled: 1
     path: Assets/Scenes/Levels/Tutorial/Tutorial FreeRoam.unity
     guid: 68e32e66c36a50b429dbec5bd9bf4a94
   - enabled: 1
@@ -68,4 +62,94 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Tutorial/Stage 1 Kill.unity
     guid: 4bde7b2a7cef0e14394835c0fc9631b7
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 2/stage 1/Level2 FreeRoam.unity
+    guid: 71c577c571c12094ba0385eabba61074
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 2/stage 1/Level2 Stage 1.unity
+    guid: 130372193ef20f54bb30bc83d665b36a
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/Level 2/Stage 1/Stage 1 Kill.unity
+    guid: fb35613c047c7f9429dc05cba1997dbf
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 2/stage 2/Level2 FreeRoam 2.unity
+    guid: 8514c3e843d445f43a7b4af92abfba0f
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 2/stage 2/Level2 Stage 2.unity
+    guid: 3d425dbd93c4fd04fb6f42866c1b443e
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/Level 2/Stage 2/Stage 2 Kill.unity
+    guid: 416c7537117ad184997db3c06805780c
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 2/stage 3/Level2 FreeRoam 3.unity
+    guid: 592870137aa570f43a9d3f91fec14f5b
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 2/stage 3/Level2 Stage 3.unity
+    guid: f8ffa38b813c155418a78beeca824e76
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/Level 2/Stage 3/Stage 3 Kill.unity
+    guid: 1ed027ba81013dc46b50ed5cf23fef24
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 2/stage 4/Level2 FreeRoam 4.unity
+    guid: a12596c694decfa43b4cad4b2fbf4897
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 2/stage 4/Level2 Stage 4.unity
+    guid: b735d337ac12ea74789ebb0f9d112b87
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/Level 2/Stage 4/Stage 4 Kill.unity
+    guid: 21e2c8a3c8c3913489a3c92ddc0e4b05
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 2/stage 5/Level2 FreeRoam 5.unity
+    guid: 16d741b88bc0bb746b5243da3800408c
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 2/stage 5/Level2 Stage 5.unity
+    guid: 9b6193269ef376c47b0698b8f344dfe3
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/Level 2/Stage 5/Stage 5 Kill.unity
+    guid: e78cf6dabb833df4cb44ad853f13abce
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 3/stage 1/Level3 FreeRoam.unity
+    guid: cf028cb6b6bc9644a8707daefdfac535
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 3/stage 1/Level3 Stage 1.unity
+    guid: fc94da4db4cb20d499699317efec6770
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/Level 3/Stage 1/Stage 1 Kill.unity
+    guid: 0eff03e05cb4f2141be334afdba8188a
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 3/stage 2/Level3 FreeRoam 2.unity
+    guid: adbe77da775fcaa43867ce9133d7de37
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 3/stage 2/Level3 Stage 2.unity
+    guid: 8f600ac2e4319c64da9128e87d04437d
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/Level 3/Stage 2/Stage 2 Kill.unity
+    guid: 5155b31a51a73f543aaa39c0bfe9c666
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 3/stage 3/Level3 FreeRoam 3.unity
+    guid: 35d022206ae0abf4eb973bedb7ae0cb7
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 3/stage 3/Level3 Stage 3.unity
+    guid: 98ec80891782ed94a99c665fa713d9c6
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/Level 3/Stage 3/Stage 3 Kill.unity
+    guid: 73b8f17b50048ce44bd6775c0c60f47b
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 3/stage 4/Level3 FreeRoam 4.unity
+    guid: 2007d59dc46418d4691f46fafbd33f2e
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 3/stage 4/Level3 Stage 4.unity
+    guid: 01338ec48381157428bba9a86e83839c
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/Level 3/Stage 4/Stage 4 Kill.unity
+    guid: 8f6a9997f8fac5a4991d31c6cea19091
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 3/stage 5/Level3 FreeRoam 5.unity
+    guid: 516559eb070fbb446a87a4db3ac79e5e
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 3/stage 5/Level3 Stage 5.unity
+    guid: e86164747abe21349a130b9737c64f9a
+  - enabled: 1
+    path: Assets/Scenes/CutScenes/Level 3/Stage 5/Stage 5 Kill.unity
+    guid: 368c236968c469449948fd4910d869b5
   m_configObjects: {}
