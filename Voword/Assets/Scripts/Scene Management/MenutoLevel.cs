@@ -17,7 +17,7 @@ public class MenutoLevel : MonoBehaviour
 
     public void LoadTutorialIsland()
     {
-        SceneManager.LoadScene(18);
+        SceneManager.LoadScene(16);
     }
 
     public void LoadLevelTwoFreeRoam()
