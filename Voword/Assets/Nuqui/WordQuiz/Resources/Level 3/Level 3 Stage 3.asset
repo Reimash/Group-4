@@ -15,4 +15,4 @@ MonoBehaviour:
   questions:
   - questionImage: {fileID: -629679676, guid: b11e2f17e6816914b8e7f1ed80c6cb5c, type: 3}
     answer: deer
-    SoundClip: {fileID: 8300000, guid: 34a988b1952c62b45b40fb89d3791094, type: 3}
+    SoundClip: {fileID: 8300000, guid: ba9fac9560003374680e71320a284c22, type: 3}

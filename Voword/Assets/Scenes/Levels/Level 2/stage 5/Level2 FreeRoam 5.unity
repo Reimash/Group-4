@@ -5219,7 +5219,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 4.036354, y: -6.5004034}
+  m_Offset: {x: 4.036354, y: -6.583205}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5230,7 +5230,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 52.07271, y: 5.2199306}
+  m_Size: {x: 52.07271, y: 5.054327}
   m_EdgeRadius: 0
 --- !u!483693784 &1739125262
 TilemapRenderer:
@@ -5274,7 +5274,7 @@ TilemapRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0.22500002, y: 0.21111113, z: 0}
+  m_ChunkCullingBounds: {x: 0.22500002, y: 0.03333336, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
