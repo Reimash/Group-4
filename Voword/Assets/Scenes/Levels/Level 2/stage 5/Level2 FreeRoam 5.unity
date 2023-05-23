@@ -10513,16 +10513,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 22, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 13
-      m_TileSpriteIndex: 13
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 30, y: -1, z: 0}
     second:
       serializedVersion: 2
@@ -11071,7 +11061,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 135f05d3e763f1c4bae952c46bfa370b, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 535ea287705879f40a4c24beb8b6c304, type: 2}
-  - m_RefCount: 13
+  - m_RefCount: 12
     m_Data: {fileID: 11400000, guid: 592c3e0606311ee48b0c81c521f35736, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
@@ -11100,10 +11090,10 @@ Tilemap:
     m_Data: {fileID: -1443154834, guid: d5fbaac04f7fbd34f9be0f6a2c475d68, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 21300000, guid: 387bdfee8fe916548b46d96afbec3f01, type: 3}
-  - m_RefCount: 13
+  - m_RefCount: 12
     m_Data: {fileID: 21300000, guid: 89d085eaef19f1b44b9ffacebac129ac, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 585
+  - m_RefCount: 584
     m_Data:
       e00: 1
       e01: 0
@@ -11122,7 +11112,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 585
+  - m_RefCount: 584
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -11192,16 +11182,16 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 23.937387, y: -2.9847164}
-      - {x: 23.97535, y: -2.0222132}
-      - {x: 23.00829, y: -1.9797878}
-      - {x: 22.963495, y: -0.064729154}
-      - {x: 22.026907, y: -0.05684203}
-      - {x: 22.02635, y: -1.9919882}
-      - {x: 21.041883, y: -2.0304348}
-      - {x: 21.019762, y: -2.9516294}
-      - {x: 20.086367, y: -3.0217223}
-      - {x: 19.8686, y: -4.324099}
+    - - {x: 23.95815, y: -3.1508288}
+      - {x: 23.892294, y: -2.1052692}
+      - {x: 22.883705, y: -2.1043723}
+      - {x: 22.963497, y: -1.061404}
+      - {x: 22.0892, y: -1.0950449}
+      - {x: 22.088642, y: -2.1373367}
+      - {x: 21.124939, y: -2.1134913}
+      - {x: 21.16511, y: -3.1385057}
+      - {x: 20.148657, y: -3.146307}
+      - {x: 20.200825, y: -4.5109754}
       - {x: 18.928759, y: -4.6937075}
       - {x: 18.936077, y: -1.0645452}
       - {x: 18.067505, y: -1.0422661}
@@ -11233,7 +11223,7 @@ PolygonCollider2D:
       - {x: 29.90539, y: -3.6571922}
       - {x: 29.700932, y: -4.438102}
       - {x: 25.01318, y: -4.045883}
-      - {x: 24.990982, y: -3.0313706}
+      - {x: 24.887161, y: -3.0936627}
   m_UseDelaunayMesh: 0
 --- !u!1 &1806031340
 GameObject:
