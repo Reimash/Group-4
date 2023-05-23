@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu Scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Levels/Tutorial/Tutorial FreeRoam.unity
+    guid: 68e32e66c36a50b429dbec5bd9bf4a94
+  - enabled: 1
+    path: Assets/Scenes/Levels/Tutorial/tutorial stage.unity
+    guid: 3185f72b2c92ea248bba38193fcaf0dc
+  - enabled: 1
+    path: Assets/Scenes/Levels/Tutorial/Stage 1 Kill.unity
+    guid: 4bde7b2a7cef0e14394835c0fc9631b7
+  - enabled: 1
     path: Assets/Scenes/Levels/Level 1/stage 1/Level1 FreeRoam.unity
     guid: ad0bf9b6eb8330b4bb6f083ef7fe2a45
   - enabled: 1
@@ -53,15 +62,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CutScenes/Level 1/Stage 5/Stage 5 Kill.unity
     guid: bf1a13bb044abea43abfc5eaf8be9308
-  - enabled: 1
-    path: Assets/Scenes/Levels/Tutorial/Tutorial FreeRoam.unity
-    guid: 68e32e66c36a50b429dbec5bd9bf4a94
-  - enabled: 1
-    path: Assets/Scenes/Levels/Tutorial/tutorial stage.unity
-    guid: 3185f72b2c92ea248bba38193fcaf0dc
-  - enabled: 1
-    path: Assets/Scenes/Levels/Tutorial/Stage 1 Kill.unity
-    guid: 4bde7b2a7cef0e14394835c0fc9631b7
   - enabled: 1
     path: Assets/Scenes/Levels/Level 2/stage 1/Level2 FreeRoam.unity
     guid: 71c577c571c12094ba0385eabba61074
